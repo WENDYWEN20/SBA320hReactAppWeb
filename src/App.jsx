@@ -5,20 +5,19 @@ import SideBar from "./components/Profiling";
 import ModelPredict from "./components/ModelPredict";
 import BuildModel from "./components/BuildModel";
 import ModelCompare from "./components/ModelCompare";
-import axios from 'axios';
-import './App.css'
 
+import './App.css'
 
 function App() {
 
-
-  return (
+ return (
     <>
       <div className="App">
-<SideBar />
-
-        <div className='content'></div>
-      </div>
+        <SideBar />
+        </div>
+            <div>  <p style={{'font-size':'48px'}}>&#129303; </p> 
+            </div>
+          
       <Routes> 
             <Route path="/upload" component={Upload} />
             <Route path="/profiling" component={SideBar} />
