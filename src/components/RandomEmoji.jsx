@@ -7,7 +7,6 @@ export default function RandomEmoji({emoji, rand}){
     return(
         <>
             <h2>Generate a random Emoji</h2>
-   
         <div> 
             <ul>
          <li>Name: {emoji[rand].unicodeName}</li>
