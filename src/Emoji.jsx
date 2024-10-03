@@ -45,7 +45,7 @@ const newRandom=()=>{
       <SideBar /> 
           
       </div>
-            <div>  <p style={{'font-size': '50px'}} > 🔍 😉{'\u{1F44d}'}🥹🏊 &#129303; &#127862; 🥰🤖 &#128541; 😁 👺💪🚙  &#x1F916;🤠 {'\u{1F615}'} 🥳⛪😎🔥👍😀🚁💩 {'\u{1F592}'}🗿 </p> 
+            <div>  <p style={{'font-size': '50px'}} > 🔍 😉{'\u{1F44d}'}🥹🏊 &#129303; &#127862; 🥰🤖 &#128541; 😁 👺💪🚙  &#x1F916;🤠 {'\u{1F615}'} 🥳⛪😎🔥👍😀🚁💩 🗿🦬 🏀 </p> 
             </div>
             <div> <button onClick={newRandom}>Click for New Emoji</button></div>
             <div>  {emojiAPI.length>0 ? <div> <RandomEmoji emoji={emojiAPI} rand={newRand}/></div> : <p>Loading()</p>}</div>
